@@ -17,7 +17,6 @@
       </div>
      
       <button @click="signup">Sign Up </button>
-    <button @click="logout">Logout </button>
 
       <p>
         
@@ -53,21 +52,8 @@ export default {
                 }
 
             )
-        },
-
-
-            logout: function() {
-        firebase
-        .auth()
-        .signOut()
-        .then(()=>{
-            this.$router.replace('/');
-        })
-        .catch((err) =>{
-            console.log(err);
-        })
-    }
-    },
+        }
+        }
 };        
 </script>
 
