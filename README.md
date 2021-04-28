@@ -1,4 +1,4 @@
-# project
+# VUE SITE
 
 ## Project setup
 ```
